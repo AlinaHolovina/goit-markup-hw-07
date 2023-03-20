@@ -349,7 +349,6 @@ display: none;
 }
 
 
-
 /* --------------------Team--------------- */
 .team{
 background: var(--btn-background-color);
@@ -622,7 +621,7 @@ width: 24px;
 height: 20px;
 margin-left: 16px;
 background-image: url(../images/icon\ send.svg);
-background-size: contain;
+background-size: cover;
 }
         
 
