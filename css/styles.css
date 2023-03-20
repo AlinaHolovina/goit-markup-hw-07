@@ -622,6 +622,7 @@ height: 20px;
 margin-left: 16px;
 background-image: url(../images/icon\ send.svg);
 background-size: cover;
+background-repeat: no-repeat;
 }
         
 
