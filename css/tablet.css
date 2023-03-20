@@ -123,6 +123,13 @@ column-gap: 24px;
 .features-item{
 flex-basis:  calc((100% - 24px) / 2);
 }
+
+.features-item:nth-child(-n + 2){
+  margin-bottom: 72px;
+}
+.features-item:nth-last-child(-n + 2){
+  margin-bottom: 0;
+  }
 /* ----------------Activities----------- */
         
 .activities-title{
@@ -170,6 +177,12 @@ padding-bottom: 96px;
 .soc-container{
  max-width: 528px;
 }
+.footer-logo{
+  display: block;
+}
+.footer-soc-logo{
+  text-align: left;
+}
 .modal-footer-title{
 text-align:left;
 }
@@ -193,7 +206,8 @@ text-align-last: left;
  }
 .input-footer{
 width: 248px;
-padding-left: 16px; }    
+padding-left: 16px;
+margin-bottom: 0; }    
  /* -------------Modal--------- */
 .modal{
                    
